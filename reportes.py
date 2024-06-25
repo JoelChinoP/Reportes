@@ -82,7 +82,7 @@ def abrirEncuesta():
 
 def enviar_encuesta_monos(pregunta, ops):
     try:
-        selecChat('SUPERVISIÓN 08 - CEPRUNSA I FASE 2025')  #seleccionar chat de monis
+        selecChat('')  #seleccionar chat de monos
         msg_encuesta = {
             "titulo": pregunta,
             "opciones": ops,
